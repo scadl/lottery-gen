@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\codetyphon\fpc\bin\x86_64-win64\fpc.exe" Date="1163760910"/>
+  <Params Value=" -Mdelphi -Scghi -O1 -g -gl -WG -vewnhibq -FuC:\codetyphon\typhon\lcl\units\x86_64-win64\win32 -FuC:\codetyphon\typhon\lcl\units\x86_64-win64 -FuC:\codetyphon\typhon\components\lazutils\lib\x86_64-win64 -FuC:\codetyphon\typhon\packager\units\x86_64-win64 &quot;-FuC:\[Works]\[Programming for DesktopPC]\[Delphi]\Completed Projects\LotteryGenerator\&quot; -l -dLCL -dLCLwin32 -dBorland -dVer150 -dDelphi7 -dCompiler6_Up -dPUREPASCAL LotteryGen.lpr"/>
+  <Complete Value="False"/>
+</CONFIG>
