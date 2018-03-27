@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.918,=C:\Users\Admin\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.347,C:\Users\Admin\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\[Works]\[Programming for DesktopPC]\[Delphi]\Completed Projects\LotteryGenerator\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.347,C:\Users\Admin\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\[Works]\[Programming for DesktopPC]\[Delphi]\Completed Projects\LotteryGenerator\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.841,=C:\Users\Admin\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.059,C:\Users\Admin\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\[Works]\[Programming for DesktopPC]\[Delphi]\Completed Projects\LotteryGenerator\LotteryGen.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.547,=C:\Users\Admin\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.897,=C:\Users\Admin\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -54,16 +54,15 @@ var
   fis: TStringList;
 begin
 
-// Creating array of exluded
-mult:= TStringList.Create();
-fis:= TStringList.Create();
-
 ListBox2.Items.Clear;
 i:=0; i2:=0; i3:=0;
 
 if ( Pos(',', Memo1.Text) <> 0 )
 then
 begin
+
+// Creating array of exluded
+mult:= TStringList.Create();
 
 // Splitt exluded list and writ to array
 mult.Delimiter:=',';
@@ -82,8 +81,8 @@ for I := 0 to mult.Count-1 do
         fi := ReRandom();
         i2 := mult.IndexOf( IntToStr(fi) );
         i3 := fis.IndexOf( IntToStr(fi) );
+        fis.Add(IntToStr(fi));
     until ( i2 = -1 ) and ( i3 = -1 );
-    fis.Add(IntToStr(fi));
     ListBox2.Items.Add(IntToStr( fi ));
   End;
 
@@ -91,11 +90,7 @@ end else begin
   // if no commas in left windows then just randomize
   for I := 1 to SpinEdit3.Value do
   Begin
-    repeat
-        fi := ReRandom();
-        i3 := fis.IndexOf( IntToStr(fi) );
-    until ( i3 = -1 );
-    fis.Add(IntToStr(fi));
+    fi := ReRandom();
     ListBox2.Items.Add(IntToStr( fi ));
   End;
   end
